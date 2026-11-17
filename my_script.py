@@ -6,7 +6,7 @@ df=pd.read_csv('Advertising_F.csv')
 
 st.title('Advertising Effectiveness Ryan')
 
-st.sidebar.head('filters')
+st.sidebar.header('Filters')
 x_var=st.selectbox('X axis', ['TV', 'radio', 'newspaper'])
 
 #show scatterplot
